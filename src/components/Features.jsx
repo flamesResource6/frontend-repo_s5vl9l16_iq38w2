@@ -1,4 +1,4 @@
-import { Rocket, ShieldCheck, Zap } from 'lucide-react';
+import { Music, MapPin, Ticket, ShieldCheck, CalendarClock } from 'lucide-react';
 
 function Feature({ icon: Icon, title, desc }) {
   return (
@@ -17,15 +17,17 @@ export default function Features() {
         <div className="flex flex-col items-start gap-4 mb-10">
           <span className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-3 py-1 text-xs text-gray-700">
             <span className="inline-block size-2 rounded-full bg-yellow-400" />
-            Why Lemon
+            Why host with Lemon
           </span>
-          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-gray-900">Clean infrastructure, powerful performance</h2>
-          <p className="text-gray-600 max-w-2xl">Everything you need to deploy with confidence, designed to stay out of your way.</p>
+          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-gray-900">Everything you need to throw a great party</h2>
+          <p className="text-gray-600 max-w-2xl">Plan, coordinate, and celebrate — without the chaos.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Feature icon={Zap} title="Instant deploys" desc="Push to main and your changes go live globally in seconds." />
-          <Feature icon={ShieldCheck} title="Secure by default" desc="Automatic SSL, DDoS protection, and isolated environments." />
-          <Feature icon={Rocket} title="Scale effortlessly" desc="From hobby to hyperscale with zero config and predictable pricing." />
+          <Feature icon={MapPin} title="Curated venues" desc="Discover rooftops, lofts, gardens, and halls matched to your vibe and size." />
+          <Feature icon={Music} title="Talent & vendors" desc="Book DJs, live bands, catering, bartenders, and decor in a few taps." />
+          <Feature icon={Ticket} title="Tickets & guests" desc="Create events, sell tickets, track RSVPs, and manage guest lists easily." />
+          <Feature icon={CalendarClock} title="Scheduling" desc="Coordinate arrivals, setup, and teardown with smart reminders for your team." />
+          <Feature icon={ShieldCheck} title="Secure & safe" desc="Verified hosts and vendors, built-in protection, and transparent reviews." />
         </div>
       </div>
     </section>

@@ -18,11 +18,11 @@ function App() {
             <div className="size-6 rounded-md bg-yellow-400" aria-hidden />
             <span className="font-semibold">Lemon</span>
           </div>
-          <p className="text-sm text-gray-500">© {new Date().getFullYear()} Lemon Hosting. All rights reserved.</p>
+          <p className="text-sm text-gray-500">© {new Date().getFullYear()} Lemon. Plan, book, and host unforgettable parties.</p>
           <div className="flex items-center gap-4 text-sm text-gray-600">
             <a href="#" className="hover:text-gray-900">Privacy</a>
             <a href="#" className="hover:text-gray-900">Terms</a>
-            <a href="#" className="hover:text-gray-900">Status</a>
+            <a href="#" className="hover:text-gray-900">Support</a>
           </div>
         </div>
       </footer>
